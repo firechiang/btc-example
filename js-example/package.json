@@ -1,0 +1,25 @@
+{
+  "name": "js-example",
+  "version": "1.0.0",
+  "description": "Bitcoin client example",
+  "main": "index.js",
+  "author": "firechiang",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bitcoinjs-lib": "^6.1.5",
+    "ecpair": "^2.1.0",
+    "js-1sat-ord": "^0.0.34",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
